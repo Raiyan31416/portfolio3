@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - S Tousif Raiyan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>S Tousif Raiyan</h1>
+        <nav>
+            <ul class="navlink">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#involvement">Involvement</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p>Western Michigan University (WMU), Kalamazoo, MI</p>
+            <p>Bachelor of Science in Engineering</p>
+            <p>Major: Mechanical Engineering, Minor: Mathematics | April 2024 | GPA: 3.50/4.00</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills / Academic Accolades</h2>
+            <ul>
+                <li>Computer Applications: AutoCAD, SolidWorks, LTspice, C Programming, HTML, CSS, Python, MS Office, LabVIEW, Adams, AMEsim, AWS</li>
+                <li>Diether H. Haenicke Scholarship recipient</li>
+                <li>Undergraduate Research & Creative Scholarship Excellence Award recipient</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+
+            <h3>Research Assistant</h3>
+            <p>Western Michigan University, Kalamazoo, MI | September 2023 – April 2024</p>
+            <ul>
+                <li>Analyzed crystallographic characteristics and structural properties of materials obtained from NASA Glenn Research Center and Argonne National Laboratory, using X-ray diffraction techniques to determine atomic structure, phase composition, lattice parameters, grain size, and crystallinity.</li>
+                <li>Analyzed heat treatment effects on samples using a tube furnace to assess material property changes.</li>
+                <li>Encapsulated Husler alloys to maintain purity and prevent contamination during testing.</li>
+                <li>Collaborated with professors and lab technicians to run PPMS and study magnetic behavior and resistivity of samples.</li>
+            </ul>
+
+            <h3>ETO Design Intern</h3>
+            <p>Getman Corporation, Bangor, MI | Summer 2022, Summer 2023</p>
+            <ul>
+                <li>Assisted in designing Elevated Work Platforms and Water Cannon Spray Systems to meet customer requirements.</li>
+                <li>Conducted FEA to evaluate the structural integrity of underground mining equipment, optimizing its design to enhance both performance and safety standards.</li>
+                <li>Collaborated with CAD engineers, product engineers, supply chain teams, marketing, and assemblers to launch new products that meet customer needs and comply with country standards.</li>
+                <li>Executed material transfers, module changes, and production checkups to streamline manufacturing processes.</li>
+                <li>Led development efforts on the Scaler Boom project, focusing on designing a compact droop hose routing system and implementing a slew drive setup.</li>
+                <li>Enhanced production efficiency by submitting and processing ECNs, ECRs, and Cart Returns, while ensuring updated drawings met Getman drawing standards.</li>
+            </ul>
+
+            <h3>Engineering Intern</h3>
+            <p>L.D. Docsa Associates, Kalamazoo, MI | October 2022 – April 2023</p>
+            <ul>
+                <li>Created detailed CAD drawings for various wastewater treatment plant design layouts, ensuring precision and compliance with project specifications.</li>
+                <li>Collaborated with engineers on design work, including the creation of Piping and Instrumentation Diagrams (P&IDs), and assisted in the preparation of comprehensive reports for projects.</li>
+            </ul>
+
+            <h3>Mechanical Engineering Intern</h3>
+            <p>Highlight Industries Inc., Wyoming, MI | September 2021 – December 2021</p>
+            <ul>
+                <li>Produced engineering sketches and implemented minor changes accordingly.</li>
+                <li>Assisted in mechanical and electrical assembly tasks, ensuring smooth and efficient completion of projects.</li>
+            </ul>
+
+            <h3>Student Tutor, Learning Assistant (part-time)</h3>
+            <p>WMU Student Success Services, Kalamazoo, MI | August 2020 – April 2023</p>
+            <ul>
+                <li>Assisted an average of 20 students with class materials in weekly review sessions.</li>
+                <li>Worked with instructors to facilitate interactive learning and mentored students for academic success.</li>
+            </ul>
+        </section>
+
+        <section id="involvement" class="section">
+            <h2>Involvement and Certification</h2>
+            <ul>
+                <li>Responsive Web design Developer Certification</li>
+                <li>WMU Formula SAE member | Fall 2021</li>
+                <li>Lee Honors College, WMU | 2020 – 2024</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section2">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:raiyan1921@gmail.com" class="email">raiyan1921@gmail.com</a></p>
+            <p>Phone: (269) 779-9962</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/s-tousif-raiyan-b44989218/" target="_blank" class="icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Raiyan31416" target="_blank" class="icon">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>S Tousif Raiyan</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
